@@ -4,7 +4,7 @@
 var time = document.querySelector(".timer");
 var score = document.querySelector("#score");
 var secondsLeft = 75;
-ssffaef
+
 //VAR FOR BUTTONS (global )
 const start = document.querySelector("#start");
 
