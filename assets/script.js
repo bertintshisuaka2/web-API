@@ -1,11 +1,11 @@
 // DECLARATIONS
 
-// VAR FOR TIMER   (global) 
+// VAR TIMER   (global) 
 var time = document.querySelector(".timer");
 var score = document.querySelector("#score");
-var secondsLeft = 75;
+var secondsLeft = 90;
 
-//VAR FOR BUTTONS (global )
+//VAR  BUTTONS (global )
 const start = document.querySelector("#start");
 
 // VAR FOR INTRO/START
@@ -50,13 +50,13 @@ const ans4Btn = document.querySelector("#answer-4");
 // ARRAY OF FIVE QUESTION, ZERO BASED, NUMBER CORECTLY. 
 const questions = [ 
     {
-        question: "Inside which HTML element do we put the JavaScript?",
-        answers: ["1. <js>", "2. <scripting>", "3. <script>", "4. <javascript>"],
-        correctAnswer: "2"
+        question: "What is the meaning of HTML ",
+        answers: ["1.Hot technical model language", "2. Hyper Text Mark up Language", "3. Hyper text make up language", "4. Higth Technology Modern Language"],
+        correctAnswer: "1"
     },
     {
-        question: "How do you write 'Hello World' in an alert box?",
-        answers: ["1. alertBox('Hello World');", "2. msg('Hello World');", "3. msgBox('Hello World');", "4. alert('Hello World');"],
+        question: "What is the meaning of CSS?",
+        answers: ["1. Code system secured;", "2. Cascading Code System;", "3. Code social system;", "4. Cascading Style Sheet;"],
         correctAnswer: "3"
     },
     {
@@ -65,14 +65,14 @@ const questions = [
         correctAnswer: "2"
     },
     {
-        question: "How does a FOR loop start?",
-        answers: ["1. for (i <= 5; i++)", "2. for (i = 0; i <= 5)", "3. for i = 1 to 5", "4. for (i = 0; i <= 5; i++)"],
-        correctAnswer: "3"
+        question: "What is the meaning of GUI",
+        answers: ["1. Graphic United interface", "2. Graphic User Interface", "3.Graph Unified Internet", "4.Graphic Union Internal"],
+        correctAnswer: "1"
     },
     {
-        question: "How to write an IF statement for executing some code if 'i' is NOT equal to 5?",
-        answers: ["1. if(i<>5)", "2. if i=!5 then", "3. if(i!=5)", "4. if i <>5"],
-        correctAnswer: "2"
+        question: "What symbole do we use to represent array",
+        answers: ["1. ()", "2. //", "3. {}", "4. []"],
+        correctAnswer: "3"
     }
 ];
 

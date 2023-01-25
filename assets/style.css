@@ -1,21 +1,21 @@
 :root {
-    --primary-color: #363d7c;
-    --secondary-color: #144a52;
+    --primary-color: #591e28;
+    --secondary-color: #b5293c;
     --tertiary-color: #ffffff;
   }
   
   * {        
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 10;
+    padding: 10;
   }
   
   
   
   body {
   font-family: 'Courier New', Courier, monospace;
-  background-color: rgb(white);
-  color: rgb(61, 102, 102);
+  background-color: rgb(rgb(15, 12, 12));
+  color: rgb(17, 21, 4);
   }
   
   /* BEGIN HEADER STYLING */
@@ -23,15 +23,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    Margin: 20px 20px;
-    padding: 5px;
+    Margin: 30px 30px;
+    padding: 15px;
     align-content: center;
   }
   .style-indiv {
   font-size: .50cm;
-  font-weight: 100;
-  background-color: transparent; 
-  }
+  font-weight: 150;
+  background-color:rgb(232, 236, 222); 
+  } 
   
   
   /* STYLE FOR BUTTON HEADER*/
@@ -129,7 +129,7 @@
     color: var(--tertiary-color);
     border-radius: 10px;
     width: 225px;
-    border: 1px solid black;
+    border: 1px solid rgb(205, 93, 93);
     font-size: .50cm;
     padding: 8px;
     margin: 4px;
@@ -157,7 +157,7 @@
   
   .answer-btn:active {
     background-color: var(--secondary-color);
-    box-shadow: 0 2px rgb(214, 71, 71); 
+    box-shadow: 0 2px rgb(60, 17, 17); 
     transform: translateY(1px);
   }
   .style-indiv {
